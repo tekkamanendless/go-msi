@@ -25,7 +25,7 @@ func main() {
 	confirm(rmFile("log-install.txt"), "install log removal")
 	confirm(rmFile("log-uninstall.txt"), "uninstall log removal")
 
-	wd := makeDir("c:/gopath/src/github.com/mh-cbon/go-msi/testing/hello")
+	wd := makeDir("c:/gopath/src/github.com/tekkamanendless/go-msi/testing/hello")
 	mustContains(wd, "hello.go")
 	mustChdir(wd)
 

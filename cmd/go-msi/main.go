@@ -11,11 +11,11 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver"
-	"github.com/mh-cbon/go-msi/manifest"
-	"github.com/mh-cbon/go-msi/rtf"
-	"github.com/mh-cbon/go-msi/tpls"
-	"github.com/mh-cbon/go-msi/util"
-	"github.com/mh-cbon/go-msi/wix"
+	"github.com/tekkamanendless/go-msi/manifest"
+	"github.com/tekkamanendless/go-msi/rtf"
+	"github.com/tekkamanendless/go-msi/tpls"
+	"github.com/tekkamanendless/go-msi/util"
+	"github.com/tekkamanendless/go-msi/wix"
 	"github.com/mh-cbon/stringexec"
 	"github.com/urfave/cli"
 )
